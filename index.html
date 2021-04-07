@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/nouislider.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="images/header logo.svg" alt="header logo" title="лого">
+          <img class="header__logo-img320" src="images/header logo-320.svg" alt="header logo" title="лого">
+        </a>
+        <p class="header__text">лизинговая компания</p>
+        <nav class="header__menu">
+
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a class="header__link header__link--active" href="#">Лизинг</a>
+              <ul class="header__dropdown"><!--выпадающий список-->
+                <li class="header__dropdown-list">
+                  <a class="header__dropdown-link" href="#">Для личного пользования</a>
+                </li>
+                <li class="header__dropdown-list">
+                  <a class="header__dropdown-link" href="#">Для юридических лиц</a>
+                </li>
+                <li class="header__dropdown-list">
+                  <a class="header__dropdown-link" href="#">Калькулятор</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header__list-item">
+              <a class="header__link" href="#">Каталог</a>
+            </li>
+            <li class="header__list-item">
+              <a class="header__link" href="#">О нас</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button data-fancybox href="#hidden" class="header__btn">Оставить заявку</button>
+        <div class="header__hamburger">
+          <img class="header__hamburder--logo" src="images/hamburger.svg" alt="">
+          <img class="header__hamburder--logo320" src="images/hamburger320.svg" alt="">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="slider">
+      <div class="container">
+        <div class="slider__box">
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+          <div class="slider__item">
+            <h1 class="slider__title">Авто в лизинг для физических лиц</h1>
+            <p class="slider__subtitle">Получите машину за 5 дней</p>
+            <button data-fancybox href="#hidden" class="slider__btn">Оставить заявку</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="calc">
+      <div class="container">
+        <h2 class="calc__title">Рассчитайте стоимость автомобиля в лизинг</h2>
+        <div class="calc__box">
+
+
+          <div class="calc__range" id="range-slider">
+            <span class="calc__text">Стоимость автомобиля</span>
+            <div class="calc__item">
+              <div class="calc__summ">
+                <span class="calc__price">3 300 000</span>
+                <span class="calc__currency">₽</span>
+              </div>
+              <input class="calc__input" type="range" id="input-">
+            </div>
+          </div>
+
+
+          <div class="calc__range">
+            <span class="calc__text">Первоначальный взнос</span>
+            <div class="calc__item">
+              <div class="calc__summ">
+                <span class="calc__price" id="range-summ">420 000 ₽</span>
+                <span class="calc__currency">13%</span>
+              </div>
+              <input class="calc__input" type="range" name="" id="">
+            </div>
+          </div>
+          <div class="calc__range">
+            <span class="calc__text">Срок лизинга</span>
+            <div class="calc__item">
+              <div class="calc__summ">
+                <span class="calc__price">60</span>
+                <span class="calc__currency">мес.</span>
+              </div>
+              <input class="calc__input" type="range" name="" id="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <div class="price__box">
+          <div class="price__item">
+            <span class="price__text">Сумма договора лизинга</span>
+            <span class="price__summ">4 467 313</span>
+          </div>
+          <div class="price__item">
+            <span class="price__text">Ежемесячный платеж от</span>
+            <span class="price__summ price__summ--active ">114 455</span>
+          </div>
+          <div class="price__button">
+            <button data-fancybox href="#hidden" class="price__btn">Оставить заявку</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal" style="display: none;">
+      <div class="modal__container" style="display: none; width: 1440px; border-radius: 32px 32px 0px 0px;" id="hidden">
+        <h2 class="modal__title">Онлайн-заявка</h2>
+        <p class="modal__subtitle">Заполните форму, и мы вскоре свяжемся с вами, чтобы ответить на все вопросы</p>
+        <form class="modal__form" action="#">
+          <input class="modal__name" type="text" name="" id="" placeholder="Телефон">
+          <input class="modal__phone" type="text" name="" id="" placeholder="Имя">
+        </form>
+        <div class="modal__form-box">
+          <p class="modal__text">Нажимая на кнопку «Оставить заявку», я даю согласие <span class="modal__span">на
+              обработку персональных данных</span> </p>
+          <button class="modal__btn">Оставить заявку</button>
+        </div>
+        <div class="modal__icons">
+          <a class="modal__link" href="#">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24.0001 14.7999C18.9273 14.7999 14.8001 18.9271 14.8001 23.9999C14.8001 25.5839 15.2093 27.1415 15.9853 28.5159L14.8149 32.6919C14.7765 32.8291 14.8137 32.9763 14.9129 33.0783C14.9893 33.1571 15.0933 33.1999 15.2001 33.1999C15.2321 33.1999 15.2645 33.1959 15.2961 33.1883L19.6545 32.1087C20.9853 32.8231 22.4841 33.1999 24.0001 33.1999C29.0729 33.1999 33.2001 29.0727 33.2001 23.9999C33.2001 18.9271 29.0729 14.7999 24.0001 14.7999ZM28.6281 27.2463C28.4313 27.7911 27.4873 28.2883 27.0337 28.3551C26.6265 28.4147 26.1113 28.4403 25.5457 28.2627C25.2029 28.1547 24.7629 28.0115 24.1993 27.7711C21.8301 26.7607 20.2829 24.4051 20.1645 24.2495C20.0465 24.0939 19.2001 22.9851 19.2001 21.8375C19.2001 20.6899 19.8101 20.1255 20.0269 19.8919C20.2437 19.6583 20.4993 19.5999 20.6569 19.5999C20.8145 19.5999 20.9717 19.6019 21.1097 19.6083C21.2549 19.6155 21.4497 19.5535 21.6413 20.0087C21.8381 20.4759 22.3105 21.6235 22.3689 21.7407C22.4281 21.8575 22.4673 21.9939 22.3889 22.1495C22.3105 22.3051 22.2713 22.4023 22.1529 22.5387C22.0345 22.6751 21.9049 22.8427 21.7985 22.9475C21.6801 23.0639 21.5573 23.1899 21.6949 23.4235C21.8325 23.6571 22.3065 24.4207 23.0089 25.0391C23.9109 25.8335 24.6721 26.0799 24.9081 26.1967C25.1441 26.3135 25.2821 26.2939 25.4197 26.1383C25.5573 25.9823 26.0101 25.4571 26.1673 25.2239C26.3245 24.9907 26.4821 25.0291 26.6989 25.1071C26.9157 25.1847 28.0769 25.7487 28.3129 25.8655C28.5489 25.9823 28.7065 26.0407 28.7657 26.1379C28.8249 26.2347 28.8249 26.7019 28.6281 27.2463Z"
+                fill="#575757" />
+              <rect x="1" y="1" width="46" height="46" rx="23" stroke="#E7E7E7" stroke-width="2" />
+            </svg>
+          </a>
+          <a class="modal__link" href="#">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M20.6186 27.2189L28.7717 32.7684C29.7021 33.2414 30.3736 32.9965 30.6053 31.9726L33.924 17.5644C34.2638 16.3094 33.4048 15.7402 32.5147 16.1125L13.0272 23.0353C11.697 23.5269 11.7048 24.2106 12.7847 24.5153L17.7857 25.9533L29.3634 19.2239C29.9099 18.9186 30.4116 19.0827 29.9998 19.4194"
+                fill="#575757" />
+              <rect x="1" y="1" width="46" height="46" rx="23" stroke="#F3F3F4" stroke-width="2" />
+            </svg>
+
+          </a>
+        </div>
+      </div>
+  </main>
+  <footer class="footer">
+  </footer>
+
+  <script src="js/nouislider.min.js"></script>
+  <script src="js/range-slider.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

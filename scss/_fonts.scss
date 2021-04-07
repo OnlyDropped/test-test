@@ -1,0 +1,36 @@
+@font-face{
+  font-family: 'Gilroy-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Gilroy-Regular'),
+       url('../fonts/Gilroy-Regular.woff2') format("woff2"),
+       url('../fonts/Gilroy-Regular.woff') format("woff");
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Gilroy-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Gilroy-Bold'),
+       url('../fonts/Gilroy-Bold.woff2') format("woff2"),
+       url('../fonts/Gilroy-Bold.woff') format("woff");
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Nekst-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Nekst-Regular'),
+       url('../fonts/Nekst-Regular.woff2') format("woff2"),
+       url('../fonts/Nekst-Regular.woff') format("woff");
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Nekst-Black';
+  font-weight: 900;
+  font-style: normal;
+  src: local('Nekst-Black'),
+       url('../fonts/Nekst-Black.woff2') format("woff2"),
+       url('../fonts/Nekst-Black.woff') format("woff");
+  font-display: swap;
+}

@@ -1,0 +1,238 @@
+@media (max-width: 1024px) {
+  .slider {
+    &__item {
+      background-image: url("../images/slider-bg-1024.jpg");
+      padding: 70px 25px 165px 70px;
+      background-position: bottom;
+    }
+  }
+  .calc {
+    &__title {
+      margin-bottom: 44px;
+    }
+    &__box {
+      flex-direction: column;
+    }
+    &__item {
+      width: 928px;
+      margin-bottom: 32px;
+      &:last-child {
+        margin-bottom: 37px;
+      }
+    }
+    &__input[type="range"] {
+      width: 812px;
+    }
+  }
+  .price {
+    padding-bottom: 100px;
+    &__box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column: 201px;
+      //grid-row: 44px;
+    }
+    &__item {
+      margin-bottom: 44px;
+    }
+    &__summ::after {
+      right: 144px;
+    }
+    &__summ--active::after {
+      right: 194px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    &__list {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 329px;
+      background-color: white;
+      height: 100vh;
+      border-top-left-radius: 32px;
+      transform: translateX(-300%);
+      transition: all 0.5s;
+    }
+    .header__list.header__list--active {
+      transform: translateX(0%);
+    }
+    &__list-item {
+      margin-bottom: 32px;
+      margin-top: 64px;
+    }
+    &__link {
+      padding-left: 44px;
+    }
+    &__btn {
+      display: none;
+    }
+  }
+  .main {
+    margin-top: 77px;
+  }
+  .slider {
+    &__item {
+      background-image: url("../images/slider-bg-768.jpg");
+      padding: 227px 67px 68px 44px;
+      background-position: bottom;
+      border-radius: 32px;
+    }
+    &__subtitle {
+      display: none;
+    }
+    .slick-dots {
+      bottom: -24px;
+      margin-bottom: 24px;
+    }
+  }
+  .calc {
+    &__item {
+      width: 698px;
+      margin-bottom: 32px;
+    }
+    &__input[type="range"] {
+      width: 230px;
+    }
+    &__title {
+      width: 722px;
+    }
+  }
+  .price {
+    &__box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column: 85px;
+      //grid-row: 44px;
+    }
+    &__item {
+      //
+    }
+    &__summ::after {
+      right: 27px;
+    }
+    &__summ--active::after {
+      right: 80px;
+    }
+  }
+  .header__hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 999;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    &__hamburger {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .header {
+    background-color: #000 !important;
+    &__hamburger {
+      display: block;
+      cursor: pointer;
+      color: #575757;
+      z-index: 999;
+    }
+    &__hamburder--logo {
+      display: none;
+    }
+    //&__hamburder--logo320{
+    //
+    //}
+    &__list {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 260px;
+      background-color: white;
+      height: 100vh;
+      border-top-left-radius: 32px;
+      transform: translateX(-300%);
+      transition: all 0.8s;
+    }
+    &__list {
+    }
+    &__logo-img {
+      display: none;
+    }
+    &__logo-img320 {
+      display: block;
+    }
+    &__text {
+      display: none;
+    }
+  }
+  .main {
+    margin-top: 71px;
+  }
+  .slider {
+    padding: 0;
+    margin-bottom: 64px;
+    .container {
+      padding: 0;
+    }
+    &__item {
+      background-image: url("../images/slider-bg320.jpg");
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 238px 37px 86px 20px;
+    }
+    &__title {
+      font-size: 32px;
+      margin-bottom: 32px;
+      width: 263px;
+    }
+  }
+  .calc {
+    &__title {
+      font-size: 34px;
+      width: 259px;
+      margin-bottom: 32px;
+    }
+    &__item {
+      width: 280px;
+    }
+    &__range[type="range"] {
+      width: 310px;
+    }
+  }
+  .price {
+    padding-bottom: 47px;
+    &__box {
+      grid-template-columns: 1fr;
+    }
+    &__item {
+      margin-bottom: 29px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 136%;
+      color: #575757;
+      margin-bottom: 2px;
+    }
+    &__summ {
+      font-size: 22px;
+    }
+    &__button {
+      margin: 0 auto;
+    }
+    &__btn {
+      font-size: 22px;
+      line-height: 20px;
+      padding: 18px 51px;
+    }
+    &__summ::after {
+    right: 122px;
+}
+  }
+}
